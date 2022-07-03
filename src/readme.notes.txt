@@ -4,6 +4,7 @@
           yarn add sass
           yarn add typed-redux
           yarn add react-redux
+          yarn add redux-persist 
           yarn add redux-logger
           yarn add redux-saga
           yarn add redux react-redux redux-saga @types/react-redux @types/redux-saga

@@ -12,13 +12,7 @@ export type ExampleState = {
 
 
 const EXAMPLE_INITIAL_STATE: ExampleState = {
-    data: [
-        {
-            id: 1,
-            description: 'test1',
-            isDone:false,
-        }
-    ],
+    data: [],
     isLoading: true,
     error: new Error()
 }
@@ -31,11 +25,11 @@ export const exampleReducer = (state: ExampleState = EXAMPLE_INITIAL_STATE, acti
                 data: action.payload,
                 isLoading: false,
                 error: new Error()
-                
+
             };
         case EXAMPLE_ACTION_TYPE.FETCH_DATA_FAIL:
             return {
-                data:state.data,
+                data: state.data,
                 isLoading: false,
                 error: new Error()
 
