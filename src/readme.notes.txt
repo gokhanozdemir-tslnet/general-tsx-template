@@ -10,6 +10,11 @@
           yarn add redux react-redux redux-saga @types/react-redux @types/redux-saga
           yarn add -D redux-logger @types/redux-logger
           yarn add axios @types/axios
+          
+            implement multilanguage         
+        npm install i18next react-i18next i18next-http-backend i18next-browser-languagedetector --save
+        yarn add i18next react-i18next i18next-http-backend i18next-browser-languagedetector --save
+
 3- Home page ekle: Home.page.tsx 
 4-Navigasyon Ekle: Navigation.page.tsx
 5-index.js 
