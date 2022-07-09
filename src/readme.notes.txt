@@ -14,6 +14,7 @@
             implement multilanguage         
         npm install i18next react-i18next i18next-http-backend i18next-browser-languagedetector --save
         yarn add i18next react-i18next i18next-http-backend i18next-browser-languagedetector --save
+        yarn add typed-i18next
 
 3- Home page ekle: Home.page.tsx 
 4-Navigasyon Ekle: Navigation.page.tsx
@@ -28,3 +29,7 @@
      root-saga.ts 
      example.saga.ts 
      store.ts 
+7. Multi language için utils > helpers> lang klasörü uuştur içine i18n klasörü aç ve in18n.ts oluştur
+8.Multi language için utils > helpers> lang  kaösürne LanguageHelper oluştur 
+9.index.js  import { Suspense } from 'react'   ekle 
+10 Multi language  <Suspense fallback={<span>Loaading</span>}>  </suspense> ekle 
